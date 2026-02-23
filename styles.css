@@ -5,6 +5,14 @@
     gap: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 68px;
+}
+
 body{
     display: block;
     background-color:whitesmoke;
