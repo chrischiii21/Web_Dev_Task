@@ -88,6 +88,7 @@ nav a {
   background: rgba(0, 0, 0, 0.5);
 }
 
+/* to make sure that all elements stay above the background */
 .hero > * {
   position: relative;
   z-index: 1;
@@ -108,7 +109,7 @@ nav a {
 }
 
 /* button style */
-.contact-btn {
+.btn {
   display: inline-flex;
   padding: 15px 25px;
   border-radius: 9px;
@@ -216,7 +217,7 @@ footer svg {
   display: block;
 }
 
-/* responsiveness style format */
+/* responsiveness style */
 @media (max-width: 900px) {
   header {
     padding: 0 24px;
